@@ -4,7 +4,6 @@ import {
   Link,
   List,
   ListItem,
-  UnorderedList,
   Heading,
   Center
 } from '@chakra-ui/react'
