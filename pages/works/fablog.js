@@ -48,7 +48,7 @@ const Work = () => (
 
       <SimpleGrid columns={2} gap={2}>
       </SimpleGrid>
-      <WorkImage src="/images/works/fablog1.JPG" alt="walknote" />
+      <WorkImage src="https://user-images.githubusercontent.com/55964635/207331250-87d6e6c9-3850-404a-968e-a89024e702f6.png" alt="walknote" />
       <WorkImage src="/images/works/fablog2.JPG" alt="walknote" />
     </Container>
   </Layout>
