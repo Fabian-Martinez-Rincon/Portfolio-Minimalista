@@ -186,13 +186,13 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.instagram.com/logos.iarg/" target="_blank">
+            <Link href="https://www.instagram.com/logos_fabo/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @logos.iarg
+                @logos_fabo
               </Button>
             </Link>
           </ListItem>
