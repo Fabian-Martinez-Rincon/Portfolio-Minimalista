@@ -186,6 +186,17 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
+            <Link href="https://www.instagram.com/logos.iarg/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoInstagram />}
+              >
+                @logos.iarg
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
             <Link href="https://www.linkedin.com/in/fabian-martinez-rincon/" target="_blank">
               <Button
                 variant="ghost"
