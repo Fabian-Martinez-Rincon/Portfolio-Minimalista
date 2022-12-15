@@ -76,7 +76,7 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-          <LinkItem href="https://fablog-mu.vercel.app/">
+          <LinkItem href="https://fablogg.vercel.app/">
             Fablog
           </LinkItem>
 
@@ -103,7 +103,7 @@ const Navbar = props => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
-                <NextLink href="https://fablog-mu.vercel.app/" passHref>
+                <NextLink href="https://fablogg.vercel.app/" passHref>
                   <MenuItem as={Link}>Fablog</MenuItem>
                 </NextLink>
               </MenuList>
