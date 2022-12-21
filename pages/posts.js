@@ -3,12 +3,12 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbPortfolio from '../public/images/contents/1.jpg'
-import thumbHowToUseInkdrop from '../public/images/contents/2.jpg'
-import thumbFishWorkflow from '../public/images/contents/3.jpg'
-import thumbMyDeskSetup from '../public/images/contents/4.jpg'
-import thumb500PaidUsers from '../public/images/contents/5.jpg'
-import thumbFinancialGoal from '../public/images/contents/6.jpg'
+import dalle2 from '../public/images/contents/1.jpg'
+import proyectos from '../public/images/contents/2.jpg'
+import libros from '../public/images/contents/3.jpg'
+import juegos from '../public/images/contents/4.jpg'
+import logica from '../public/images/contents/5.jpg'
+import dilemas from '../public/images/contents/6.jpg'
 import logos from '../public/images/contents/7.png'
 import midjourney from '../public/images/contents/8.png'
 
@@ -34,22 +34,22 @@ const Posts = () => (
           />
           <GridItem
             title="GENERA CUALQUIER IMAGEN | Boludenado con DALL-E 2"
-            thumbnail={thumbPortfolio}
+            thumbnail={dalle2}
             href="https://www.youtube.com/watch?v=qZIL8m2FI4s&t=5s"
           />
           <GridItem
             title="Proyectos en PROGRAMACION"
-            thumbnail={thumbHowToUseInkdrop}
+            thumbnail={proyectos}
             href="https://www.youtube.com/watch?v=d5u4DT3oH8E&t=19s"
           />
           <GridItem
             title="Libros de Programación para 2022"
-            thumbnail={thumbFishWorkflow}
+            thumbnail={libros}
             href="https://www.youtube.com/watch?v=6xmOD4W_2Kc&t=6s"
           />
           <GridItem
             title="8 JUEGOS PARA PROGRAMAR 2022"
-            thumbnail={thumbMyDeskSetup}
+            thumbnail={juegos}
             href="https://www.youtube.com/watch?v=DOAEoaSS6W8"
           />
         </SimpleGrid>
@@ -59,12 +59,12 @@ const Posts = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="Aumentar Lógica en PROGRAMACIÓN"
-            thumbnail={thumb500PaidUsers}
+            thumbnail={logica}
             href="https://www.youtube.com/watch?v=64jPO_DxQEQ&t=4s"
           />
           <GridItem
             title="Dilemas en PROGRAMACION"
-            thumbnail={thumbFinancialGoal}
+            thumbnail={dilemas}
             href="https://www.youtube.com/watch?v=s_nf-m2KAPc&t=50s"
           />
         </SimpleGrid>
