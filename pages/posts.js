@@ -9,6 +9,8 @@ import thumbFishWorkflow from '../public/images/contents/3.jpg'
 import thumbMyDeskSetup from '../public/images/contents/4.jpg'
 import thumb500PaidUsers from '../public/images/contents/5.jpg'
 import thumbFinancialGoal from '../public/images/contents/6.jpg'
+import logos from '../public/images/contents/7.png'
+import midjourney from '../public/images/contents/8.png'
 
 
 const Posts = () => (
@@ -20,6 +22,16 @@ const Posts = () => (
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            title="Negocio de logos con DALLE 2 y chatGPT"
+            thumbnail={logos}
+            href="https://www.youtube.com/watch?v=PBQlYiEAQxw"
+          />
+          <GridItem
+            title="Midjourney v4 | IA Art Testeando"
+            thumbnail={midjourney}
+            href="https://www.youtube.com/watch?v=jY_Y0icAbcY"
+          />
           <GridItem
             title="GENERA CUALQUIER IMAGEN | Boludenado con DALL-E 2"
             thumbnail={thumbPortfolio}
