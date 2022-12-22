@@ -208,24 +208,24 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://opensea.io/Faboart" target="_blank">
+            <Link href="https://opensea.io/NomaDiix" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoOpenSharp />}
               >
-                @faboart-nft
+                @NomaDiix-nft
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.youtube.com/channel/UC9LoqsWsp3E6ymT1j1JLC4Q" target="_blank">
+            <Link href="https://www.youtube.com/@NomaDiix/featured" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoYoutube />}
               >
-                @fabocod
+                @NomaDiix
               </Button>
             </Link>
           </ListItem>
