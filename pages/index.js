@@ -150,26 +150,26 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/Fabian-Martinez1" target="_blank">
+            <Link href="https://github.com/NomaDiix" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @fabian-martinez1
+                @NomaDiix
               </Button>
 
             </Link>
           </ListItem>
 
           <ListItem>
-            <Link href="https://www.instagram.com/faboart_/" target="_blank">
+            <Link href="https://www.instagram.com/nomadiixart/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @faboart_
+                @nomadiixart
               </Button>
             </Link>
           </ListItem>
@@ -186,13 +186,13 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.instagram.com/logos_fabo/" target="_blank">
+            <Link href="https://www.instagram.com/nomadiixlogos/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @logos_fabo
+                @nomadiixlogos
               </Button>
             </Link>
           </ListItem>
