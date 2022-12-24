@@ -29,13 +29,13 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Presentation</Meta>
-          <Link href="https://fabian-martinez1.github.io/Old_Portfolio/">
+          <Link href="https://nomadiix.github.io/Old_Portfolio/">
             website <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Blogpost</Meta>
-          <Link href="https://github.com/Fabian-Martinez1/Old_Portfolio">
+          <Link href="https://github.com/NomaDiix/Old_Portfolio">
             Respositorio con los archivos{' '}
             <ExternalLinkIcon mx="2px" />
           </Link>

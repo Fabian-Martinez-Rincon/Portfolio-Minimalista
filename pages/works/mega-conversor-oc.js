@@ -24,13 +24,13 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://fabian-martinez1.github.io/Mega-Conversor-OC/">
+          <Link href="https://nomadiix.github.io/Mega-Conversor-OC/">
             Mega-Conversor-OC <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Repositorio</Meta>
-          <Link href="https://github.com/Fabian-Martinez1/Mega-Conversor-OC">
+          <Link href="https://github.com/NomaDiix/Mega-Conversor-OC">
             Github <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

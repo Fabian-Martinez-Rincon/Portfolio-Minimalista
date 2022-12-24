@@ -35,13 +35,13 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Web</Meta>
-            <Link href="https://fabian-martinez1.github.io/Keypad/">
+            <Link href="https://nomadiix.github.io/Keypad/">
               Keypad
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Repositorio</Meta>
-            <Link href="https://github.com/Fabian-Martinez1/Keypad">Github</Link>
+            <Link href="https://github.com/NomaDiix/Keypad">Github</Link>
           </ListItem>
         </List>
   
