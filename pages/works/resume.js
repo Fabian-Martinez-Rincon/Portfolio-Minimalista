@@ -51,7 +51,7 @@ const Work = () => (
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
+        <Center>Preview</Center>
       </Heading>
       <WorkImage src="https://user-images.githubusercontent.com/55964635/207139055-af18fcba-eba9-4e81-bdb5-c1d29171a90f.png" alt="Resume" />
     </Container>

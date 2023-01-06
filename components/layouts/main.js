@@ -15,8 +15,8 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="apple-touch-icon" href="/1.svg" />
-        <link rel="shortcut icon" href="/1.svg" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/nomadiix.ico" />
+        <link rel="shortcut icon" href="/nomadiix.ico" type="image/x-icon" />
         <title>Fabian Martinez Portfolio</title>
       </Head>
 

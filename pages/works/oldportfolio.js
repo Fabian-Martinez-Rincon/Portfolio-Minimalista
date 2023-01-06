@@ -43,7 +43,7 @@ const Work = () => (
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
+        <Center>Preview</Center>
       </Heading>
 
   

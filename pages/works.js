@@ -18,6 +18,8 @@ import pokemon from '../public/images/works/pokemon.jpg'
 import converteroc from '../public/images/works/converteroc.jpg'
 import keypad from '../public/images/works/keypad.jpg'
 import lock from '../public/images/works/lock.jpg'
+import gallerix from '../public/images/works/gallerix.jpg'
+import linktree from '../public/images/works/linktree.jpg'
 
 const Works = () => (
   <Layout title="Proyectos">
@@ -58,6 +60,18 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         
+        <Section delay={0.1}>
+          <WorkGridItem id="gallerix" thumbnail={gallerix} title="Galleriix">
+            Web con logos hechos con ias
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem id="linktree" thumbnail={linktree} title="Linktree">
+            Clon de Linktree
+          </WorkGridItem>
+        </Section>
+
       </SimpleGrid>
 
       <Section delay={0.2}>

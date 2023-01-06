@@ -46,7 +46,7 @@ import {
         </List>
   
         <Heading as="h4" fontSize={16} my={6}>
-          <Center>Media coverage</Center>
+          <Center>Preview</Center>
         </Heading>
   
         <WorkImage src="https://user-images.githubusercontent.com/55964635/207169411-b23334cf-84c1-4c37-b747-eab14445cbc7.png" alt="amembo" />
