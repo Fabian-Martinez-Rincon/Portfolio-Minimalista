@@ -30,13 +30,13 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Web</Meta>
-            <Link href="https://fabian-martinez1.github.io/Converter-OC/">
+            <Link href="https://nomadiix.github.io/Converter-OC/">
               Conterver oc
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Repositorio</Meta>
-            <Link href="https://github.com/Fabian-Martinez1/Converter-OC">Github</Link>
+            <Link href="https://github.com/NomaDiix/Converter-OC">Github</Link>
           </ListItem>
         </List>
   

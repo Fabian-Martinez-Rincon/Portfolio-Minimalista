@@ -35,7 +35,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <span>
-            <Link href="https://fabian-martinez1.github.io/Resume/" target="_blank">
+            <Link href="https://nomadiix.github.io/Resume/" target="_blank">
               Resume<ExternalLinkIcon mx="2px" />
             </Link>
           </span>
@@ -43,7 +43,7 @@ const Work = () => (
         <ListItem>
           <Meta>Repositorio</Meta>
           <span>
-            <Link href="https://github.com/Fabian-Martinez1/Resume" target="_blank">
+            <Link href="https://github.com/NomaDiix/Resume" target="_blank">
               Github<ExternalLinkIcon mx="2px" />
             </Link>
           </span>

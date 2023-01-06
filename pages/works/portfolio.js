@@ -29,13 +29,13 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Presentation</Meta>
-            <Link href="https://fabian-martinez1.github.io/">
+            <Link href="https://nomadiix.github.io">
               website <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Repositorio</Meta>
-            <Link href="https://github.com/Fabian-Martinez1/Fabian-Martinez1.github.io">
+            <Link href="https://github.com/NomaDiix/NomaDiix.github.io">
               Respositorio con los archivos{' '}
               <ExternalLinkIcon mx="2px" />
             </Link>

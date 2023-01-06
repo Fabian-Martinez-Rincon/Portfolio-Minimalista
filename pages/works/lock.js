@@ -30,13 +30,13 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Web</Meta>
-            <Link href="https://fabian-martinez1.github.io/Lock/">
+            <Link href="https://nomadiix.github.io/Lock/">
               Keypad
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Repositorio</Meta>
-            <Link href="https://github.com/Fabian-Martinez1/Lock">Github</Link>
+            <Link href="https://github.com/NomaDiix/Lock">Github</Link>
           </ListItem>
         </List>
   

@@ -29,13 +29,13 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Web</Meta>
-            <Link href="https://fabian-martinez1.github.io/Transform-Pokemon-Resolution/">
+            <Link href="https://nomadiix.github.io/Transform-Pokemon-Resolution/">
               Pokemon
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Repositorio</Meta>
-            <Link href="https://github.com/Fabian-Martinez1/Transform-Pokemon-Resolution">Github</Link>
+            <Link href="https://github.com/NomaDiix/Transform-Pokemon-Resolution">Github</Link>
           </ListItem>
         </List>
   
