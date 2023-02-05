@@ -83,7 +83,7 @@ const Home = () => (
           se extendía ante mí aún por descubrir. 
           {' '}
            Mi resumen 
-          <NextLink href="https://fabian-martinez1.github.io/Resume/" passHref>
+          <NextLink href="https://nomadiix.github.io/Resume/" passHref>
             <Link target="_blank"> CV</Link>
           </NextLink>.
         </Paragraph>
