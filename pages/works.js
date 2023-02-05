@@ -18,8 +18,8 @@ import pokemon from '../public/images/works/pokemon.jpg'
 import converteroc from '../public/images/works/converteroc.jpg'
 import keypad from '../public/images/works/keypad.jpg'
 import lock from '../public/images/works/lock.jpg'
-import gallerix from '../public/images/works/gallerix.jpg'
-import linktree from '../public/images/works/linktree.jpg'
+import gallerix from '../public/images/works/gallerix.JPG'
+import linktree from '../public/images/works/linktree.JPG'
 
 const Works = () => (
   <Layout title="Proyectos">
