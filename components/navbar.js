@@ -43,7 +43,7 @@ const Navbar = props => {
       position="fixed"
       as="nav"
       w="100%"
-      bg={useColorModeValue('#ffffff40', '#20202380')}
+      bg={useColorModeValue('#ffffff40', '#161b22')}
       css={{ backdropFilter: 'blur(10px)' }}
       zIndex={2}
       {...props}
@@ -77,7 +77,10 @@ const Navbar = props => {
             Posts
           </LinkItem>
           <LinkItem href="https://fablogg.vercel.app/">
-            Fablog
+            EI-Materias
+          </LinkItem>
+          <LinkItem href="https://fablogg.vercel.app/">
+            Blog
           </LinkItem>
 
         </Stack>
