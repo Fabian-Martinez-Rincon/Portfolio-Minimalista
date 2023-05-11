@@ -33,7 +33,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Me gusta poner en practica lo que aprendo
+        Mi objetivo de vida  es trabajar en el CERN 🤓
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -41,8 +41,9 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Fabian Martinez
           </Heading>
-          <p>El unico limite es tu imaginación</p>
-          <p>Artist / Developer</p>
+          <p>Durante la Uni quiero hacer todo lo posible para documentar todo lo que hago
+          </p>
+          <p>Full Stack Developer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -73,17 +74,15 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Fabo
+          Un poco sobre mi
         </Heading>
         <Paragraph>
-          No sé qué podré parecerle yo al mundo, pero tengo para mí
-          que no he sido sino un muchacho que juega a la orilla del mar, que se distrae de cuando en cuando
-          al encontrar un guijarro más liso o una concha más bella que las habituales, 
-          mientras el gran océano de la verdad
-          se extendía ante mí aún por descubrir. 
+          Me encanta aprender y soy muy autoexigente. No se muy bien en que sector de la
+          la informatica especializarme, ya que me gustan todos los campos. Espero que cuando termine
+          la carrera pueda tener una respuesta concreta.
           {' '}
            Mi resumen 
-          <NextLink href="https://nomadiix.github.io/Resume/" passHref>
+          <NextLink href="https://fabian-martinez-rincon.github.io/Resume/" passHref>
             <Link target="_blank"> CV</Link>
           </NextLink>.
         </Paragraph>
@@ -116,8 +115,7 @@ const Home = () => (
           profecionalizantes con Arduino
         </BioSection>
         <BioSection>
-          <BioYear>2020 al presente</BioYear>
-          Analista Programador Universitario, UNLP
+          <BioYear>2020 al presente</BioYear> Licenciatura en Informatica, UNLP
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
@@ -135,14 +133,6 @@ const Home = () => (
         </BioSection>
       </Section>
 
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          I ♥
-        </Heading>
-        <Paragraph>
-          Basket, Skate, Tenis de Mesa, Dibujar y todo lo que sea programar.
-        </Paragraph>
-      </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
@@ -150,18 +140,39 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/NomaDiix" target="_blank">
+            <Link href="https://github.com/Fabian-Martinez-Rincon" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @NomaDiix
+                @FabianMartinezRincon
               </Button>
 
             </Link>
           </ListItem>
-
+          <ListItem>
+            <Link href="https://www.linkedin.com/in/fabian-martinez-rincon/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                @fabian-martinez-rincon
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.youtube.com/channel/UC9LoqsWsp3E6ymT1j1JLC4Q" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoYoutube />}
+              >
+                @FabianMartinezRincon
+              </Button>
+            </Link>
+          </ListItem>
           <ListItem>
             <Link href="https://www.instagram.com/nomadiixart/" target="_blank">
               <Button
@@ -196,39 +207,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
-            <Link href="https://www.linkedin.com/in/fabian-martinez-rincon/" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoLinkedin />}
-              >
-                @fabian-martinez-rincon
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://opensea.io/NomaDiix" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoOpenSharp />}
-              >
-                @NomaDiix-nft
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://www.youtube.com/@NomaDiix/featured" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoYoutube />}
-              >
-                @NomaDiix
-              </Button>
-            </Link>
-          </ListItem>
+
           </List>
           
 

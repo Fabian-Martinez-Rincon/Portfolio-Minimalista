@@ -17,7 +17,7 @@ const Main = ({ children, router }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="apple-touch-icon" href="/nomadiix.ico" />
         <link rel="shortcut icon" href="/nomadiix.ico" type="image/x-icon" />
-        <title>Fabian Martinez Portfolio</title>
+        <title>Fabian Martinez Rincon</title>
       </Head>
 
       <NavBar path={router.asPath} />

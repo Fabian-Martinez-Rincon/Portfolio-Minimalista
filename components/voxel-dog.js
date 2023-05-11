@@ -12,7 +12,7 @@ const VoxelDog = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = '/15.glb'
+  const urlDogGLB = '/17.glb'
 
 
   
@@ -45,7 +45,7 @@ const VoxelDog = () => {
       refRenderer.current = renderer
       const scene = new THREE.Scene()
 
-      const target = new THREE.Vector3(-0.17, 2.02, 0)
+      const target = new THREE.Vector3(-0.17, 0.72, 0)
       const initialCameraPosition = new THREE.Vector3(
         20 * Math.sin(0.2 * Math.PI),
         10,
@@ -54,7 +54,7 @@ const VoxelDog = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.019 + 0.8
+      const scale = scH * 0.006 + 0.8
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
