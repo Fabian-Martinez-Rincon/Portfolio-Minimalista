@@ -16,10 +16,10 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-
+import { IoLogoGithub } from 'react-icons/io5'
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
-  const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
+  const inactiveColor = useColorModeValue('whiteAlpha.900', 'whiteAlpha.900')
   return (
     <NextLink href={href} passHref scroll={false}>
       <Link
@@ -43,7 +43,7 @@ const Navbar = props => {
       position="fixed"
       as="nav"
       w="100%"
-      bg={useColorModeValue('#ffffff40', '#161b22')}
+      bg={useColorModeValue('#24292f', '#161b22')}
       css={{ backdropFilter: 'blur(10px)' }}
       zIndex={2}
       {...props}
@@ -71,18 +71,28 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            Proyectos
+          💻 Proyectos
           </LinkItem>
           <LinkItem href="/posts" path={path}>
-            Posts
+          🎥 Posts
           </LinkItem>
-          <LinkItem href="https://fablogg.vercel.app/">
-            EI-Materias
+          <LinkItem 
+            target="_blank"
+            href="https://mith-arg.github.io/EI-Materias/">
+          🧉 EI-Materias
           </LinkItem>
-          <LinkItem href="https://fablogg.vercel.app/">
-            Blog
-          </LinkItem>
-
+          <LinkItem
+            target="_blank"
+            href="https://github.com/Fabian-Martinez-Rincon"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoGithub />
+            Github
+            </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">
