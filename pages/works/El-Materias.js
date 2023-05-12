@@ -28,13 +28,13 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Respositorio</Meta>
-          <Link href="https://github.com/MITH-arg/EI-Materias-Web">
-            El-MateriasWeb <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/MITH-arg/EI-Materias">
+            El-Materia <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://mith-arg.github.io/EI-Materias-Web/">
+          <Link href="https://mith-arg.github.io/EI-Materias/">
             El-Materias{' '}
             <ExternalLinkIcon mx="2px" />
           </Link>

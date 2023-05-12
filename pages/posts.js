@@ -3,69 +3,80 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import dalle2 from '../public/images/contents/1.jpg'
-import proyectos from '../public/images/contents/2.jpg'
-import libros from '../public/images/contents/3.jpg'
-import juegos from '../public/images/contents/4.jpg'
-import logica from '../public/images/contents/5.jpg'
-import dilemas from '../public/images/contents/6.jpg'
-import logos from '../public/images/contents/7.png'
-import midjourney from '../public/images/contents/8.png'
+import LibrosDeProgramacion from '../public/images/contents/LibrosDeProgramacion.jpg'
+import ProyectosModoDios from '../public/images/contents/ProyectosModoDios.jpg'
+import PaginaWebNext13 from '../public/images/contents/PaginaWebNext13.jpg'
+import AumentarLogicaEnProgramacion from '../public/images/contents/AumentarLogicaEnProgramacion.jpg'
+import JuegosParaProgramar from '../public/images/contents/JuegosParaProgramar.jpg'
+import BoludeandoDalle2 from '../public/images/contents/BoludeandoDalle2.jpg'
+import Midjourneyv4 from '../public/images/contents/Midjourneyv4.jpg'
+import ReadmeGithub from '../public/images/contents/ReadmeGithub.jpg'
+import DilemasEnProgramacion from '../public/images/contents/DilemasEnProgramacion.jpg'
+import GptCHATYSupabase from '../public/images/contents/GptCHATYSupabase.jpg'
 
 
 const Posts = () => (
   <Layout title="Posts">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
-        Posts
+    <Section delay={0.1}>
+      <Heading as="h3" fontSize={20} mb={4} variant="section-title">
+        Videos
       </Heading>
-
+      <p>Tengo un canal de youtube en el que subo de vez en cuando temas 
+      que se me hacen interesantes. Puede que algún dia me ponga serio, pero de momento
+      estoy enfocado en mis estudios. Aca les dejo algunos</p>
+      </Section>
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="Negocio de logos con DALLE 2 y chatGPT"
-            thumbnail={logos}
-            href="https://www.youtube.com/watch?v=PBQlYiEAQxw"
+            title="Libros de Programación"
+            thumbnail={LibrosDeProgramacion}
+            href="https://www.youtube.com/watch?v=6xmOD4W_2Kc&t=7s"
           />
           <GridItem
-            title="Midjourney v4 | IA Art Testeando"
-            thumbnail={midjourney}
-            href="https://www.youtube.com/watch?v=jY_Y0icAbcY"
+            title="Proyectos Modo Dios"
+            thumbnail={ProyectosModoDios}
+            href="https://www.youtube.com/watch?v=d5u4DT3oH8E&t=23s"
           />
           <GridItem
-            title="GENERA CUALQUIER IMAGEN | Boludenado con DALL-E 2"
-            thumbnail={dalle2}
-            href="https://www.youtube.com/watch?v=qZIL8m2FI4s&t=5s"
+            title="Pagina Web | Next js 13"
+            thumbnail={PaginaWebNext13}
+            href="https://www.youtube.com/watch?v=KB_tUK8yiSg"
           />
           <GridItem
-            title="Proyectos en PROGRAMACION"
-            thumbnail={proyectos}
-            href="https://www.youtube.com/watch?v=d5u4DT3oH8E&t=19s"
+            title="Aumentar Logica"
+            thumbnail={AumentarLogicaEnProgramacion}
+            href="https://www.youtube.com/watch?v=64jPO_DxQEQ&t=5s"
           />
           <GridItem
-            title="Libros de Programación para 2022"
-            thumbnail={libros}
-            href="https://www.youtube.com/watch?v=6xmOD4W_2Kc&t=6s"
-          />
-          <GridItem
-            title="8 JUEGOS PARA PROGRAMAR 2022"
-            thumbnail={juegos}
+            title="Juegos par Programar"
+            thumbnail={JuegosParaProgramar}
             href="https://www.youtube.com/watch?v=DOAEoaSS6W8"
           />
-        </SimpleGrid>
-      </Section>
-
-      <Section delay={0.3}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="Aumentar Lógica en PROGRAMACIÓN"
-            thumbnail={logica}
-            href="https://www.youtube.com/watch?v=64jPO_DxQEQ&t=4s"
+            title="Genera Cualquier Imagen"
+            thumbnail={BoludeandoDalle2}
+            href="https://www.youtube.com/watch?v=qZIL8m2FI4s&t=54s"
           />
           <GridItem
-            title="Dilemas en PROGRAMACION"
-            thumbnail={dilemas}
-            href="https://www.youtube.com/watch?v=s_nf-m2KAPc&t=50s"
+            title="Midjourney V4"
+            thumbnail={Midjourneyv4}
+            href="https://www.youtube.com/watch?v=LizsBLUDQ8k&t=328s"
+          />
+          <GridItem
+            title="Readme Para Github"
+            thumbnail={ReadmeGithub}
+            href="https://www.youtube.com/watch?v=TjzeV7slTOc"
+          />
+          <GridItem
+            title="Dilemas en Programación"
+            thumbnail={DilemasEnProgramacion}
+            href="https://www.youtube.com/watch?v=s_nf-m2KAPc"
+          />
+          <GridItem
+            title="GPT 3.5 y Supadatabe"
+            thumbnail={GptCHATYSupabase}
+            href="https://www.youtube.com/watch?v=-q7AxFkNCjQ"
           />
         </SimpleGrid>
       </Section>

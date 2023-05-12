@@ -24,12 +24,103 @@ import linktree from '../public/images/works/linktree.JPG'
 const Works = () => (
   <Layout title="Proyectos">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
+      <Section delay={0.1}>
+        <Heading as="h3" fontSize={20} mb={4} variant="section-title">
         Proyectos
-      </Heading>
+        </Heading>
+        <p>Son los que mantengo actualizados, tanto en estetica como en 
+          información. Son solo estos 4 ya que se me hace imposible ir actualizando tantos
+          proyectos (Ademas no son tan importantes de momento)
+        </p>
+      </Section>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section delay={0.4}>
+          <WorkGridItem id="resume" thumbnail={resume} title="Resume">
+            Un resume sobre mis conocimientos
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.5}>
+          <WorkGridItem id="El-Materias" thumbnail={eimaterias} title="EI-Materias">
+            Blog en el que subo apuntes sobre materias
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.6}>
+          <WorkGridItem id="portfolio" thumbnail={portfolio} title="Portfolio Front End">
+            Web con información detallada de mis conocimientos
+          </WorkGridItem>
+        </Section>
+        
+
+        <Section delay={0.7}>
+          <WorkGridItem id="linktree" thumbnail={linktree} title="Linktree">
+            Clon de Linktree
+          </WorkGridItem>
+        </Section>
+
+      </SimpleGrid>
+
+      <Section delay={0.8}>
+        <Divider my={6} />
+
+        <Section delay={0.1}>
+          <Heading as="h3" fontSize={20} mb={4} variant="section-title">
+          Colaboraciones
+          </Heading>
+          <p>Usualmente programo solo pero de vez en cuando surge la oportunidad
+            de crear un proyecto con colaboradores
+          </p>
+        </Section>
+      </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        
+        <Section delay={0.9}>
+          <WorkGridItem id="pingo" thumbnail={pingo} title="Pingo">
+            Un meme convertido en web
+          </WorkGridItem>
+        </Section>
+        <Section delay={1}>
+          <WorkGridItem
+            id="cuestion-de-espacio"
+            thumbnail={cuestiondeespacio}
+            title="Cuestion de Espacio"
+          >
+            Proyecto del hackaton SpaceApp
+          </WorkGridItem>
+        </Section>
+        <Section delay={1.1}>
+          <WorkGridItem id="mith" thumbnail={mith} title="MITH arg">
+            Para compartir y crear contenido con fines educativos
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <Section delay={1.2}>
+        <Divider my={6} />
+
+        <Section delay={0.1}>
+          <Heading as="h3" fontSize={20} mb={4} variant="section-title">
+          Proyectos Viejitos
+          </Heading>
+          <p>Son los proyectos que ya no actualizo unicamente por falta de tiempo. Estoy
+            full focus en terminar la uni</p>
+        </Section>
+      </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section delay={1.3}>
+          <WorkGridItem
+            id="oldportfolio"
+            title="Portfolio2020"
+            thumbnail={oldportfolio}
+          >
+            De mis primeros proyectos
+          </WorkGridItem>
+        </Section>
+        <Section delay={1.4}>
+          <WorkGridItem id="gallerix" thumbnail={gallerix} title="Galleriix">
+            Web con logos hechos con ias
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem
             id="fablog"
@@ -39,91 +130,12 @@ const Works = () => (
             Blog sobre temas de informatica
           </WorkGridItem>
         </Section>
-
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="oldportfolio"
-            title="Portfolio2020"
-            thumbnail={oldportfolio}
-          >
-            De mis primeros proyectos
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="El-Materias" thumbnail={eimaterias} title="EI-Materias">
-            Blog en el que subo apuntes sobre materias
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="portfolio" thumbnail={portfolio} title="Portfolio2021">
-            Web con información detallada de mis conocimientos
-          </WorkGridItem>
-        </Section>
-        
-        <Section delay={0.1}>
-          <WorkGridItem id="gallerix" thumbnail={gallerix} title="Galleriix">
-            Web con logos hechos con ias
-          </WorkGridItem>
-        </Section>
-
-        <Section delay={0.1}>
-          <WorkGridItem id="linktree" thumbnail={linktree} title="Linktree">
-            Clon de Linktree
-          </WorkGridItem>
-        </Section>
-
-      </SimpleGrid>
-
-      <Section delay={0.2}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Colaboraciones
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem id="pingo" thumbnail={pingo} title="Pingo">
-            Un meme convertido en web
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem
-            id="cuestion-de-espacio"
-            thumbnail={cuestiondeespacio}
-            title="Cuestion de Espacio"
-          >
-            Proyecto del hackaton SpaceApp
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem id="mith" thumbnail={mith} title="MITH arg">
-            Para compartir y crear contenido con fines educativos
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-
-      <Section delay={0.4}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Proyectos viejitos
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
       <Section>
           <WorkGridItem id="mega-conversor-oc" title="MEGA CONVERSOR OC" thumbnail={megaconversoroc}>
             Conversor de numeros binarios 
           </WorkGridItem>
         </Section>
-        <Section delay={0.5}>
-          <WorkGridItem id="resume" thumbnail={resume} title="Resume">
-            Un resume sobre mis conocimientos
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.5}>
+        <Section delay={1.6}>
           <WorkGridItem
             id="zonafabo"
             thumbnail={zonafabo}
@@ -132,27 +144,27 @@ const Works = () => (
             De las primeras webs para materias
           </WorkGridItem>
         </Section>
-        <Section delay={0.6}>
+        <Section delay={1.7}>
           <WorkGridItem id="efficiency-x" thumbnail={eficiencia} title="Efficiency_X">
             Web que calcula la memoria fisica de un programa en pascal
           </WorkGridItem>
         </Section>
-        <Section delay={0.7}>
+        <Section delay={1.9}>
           <WorkGridItem id="pokemon" thumbnail={pokemon} title="Transform Pokemon Resolution">
             Ia para desenfocar imagenes
           </WorkGridItem>
         </Section>
-        <Section delay={0.8}>
+        <Section delay={2}>
           <WorkGridItem id="converter-oc" thumbnail={converteroc} title="Converter-OC">
             Es un conversor de numeros hecho en pascal
           </WorkGridItem>
         </Section>
-        <Section delay={0.9}>
+        <Section delay={2.1}>
           <WorkGridItem id="keypad" thumbnail={keypad} title="Keypad">
             Proyecto hecho en las practicas (con arduino)
           </WorkGridItem>
         </Section>
-        <Section delay={1}>
+        <Section delay={2.2}>
           <WorkGridItem id="lock" thumbnail={lock} title="Lock">
           Proyecto introductorio hecho en las practicas (con arduino)
           </WorkGridItem>
