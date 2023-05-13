@@ -115,7 +115,7 @@ const Home = () => (
           profecionalizantes con Arduino
         </BioSection>
         <BioSection>
-          <BioYear>2020 al presente</BioYear> Licenciatura en Informatica, UNLP
+          <BioYear>2021 al presente</BioYear> Licenciatura en Informatica, UNLP
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
